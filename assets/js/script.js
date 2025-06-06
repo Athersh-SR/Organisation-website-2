@@ -1,8 +1,7 @@
-
 function animateCounter(counter) {
   const target = +counter.getAttribute("data-target");
   let current = 0;
-  const speed = 200;
+  const speed = 100;
   const increment = target / speed;
 
   function update() {
