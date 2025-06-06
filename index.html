@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar d-flex">
+            <div class="container-fluid">
+                <div class="nav-left">
+                    <div class="logo">
+                        <a class="navbar-brand" href="#">
+                            <img class="w-100" src="./assets/Logos/businessLogo.jpg" alt="logo" srcset="">
+                        </a>
+                    </div>
+                </div>
+                <div class="nav-middle d-none d-lg-block me-4">
+                    <ul class="nav-links mb-0 list-unstyled d-flex">
+                        <li class="nav-item active"><a href="#">ABOUT</a></li>
+                        <li class="nav-item"><a href="#">BOARD</a></li>
+                        <li class="nav-item"><a href="#">MEDIA</a></li>
+                        <li class="nav-item"><a href="#">BUSINESS</a></li>
+                        <li class="nav-item"><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="nav-right d-block d-lg-none">
+                    <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                        aria-label="Toggle navigation">
+                        <i class="bi bi-list text-dark"></i>
+                    </button>
+                </div>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <button type="button" class="btn-close position-absolute top-0 end-0 m-3 text-reset"
+                        data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1">
+                            <li class="nav-item border-bottom border-bottom-dark">
+                                <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+                            </li>
+                            <li class="nav-item border-bottom border-bottom-dark">
+                                <a class="nav-link" href="#">BOARD</a>
+                            </li>
+                            <li class="nav-item border-bottom border-bottom-dark">
+                                <a class="nav-link" href="#">MEDIA</a>
+                            </li>
+                            <li class="nav-item border-bottom border-bottom-dark">
+                                <a class="nav-link" href="#">BUSINESS</a>
+                            </li>
+                            <li class="nav-item border-bottom border-bottom-dark">
+                                <a class="nav-link" href="#">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <div id="slider__homepage" class="slider">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-aos="fade-right">
+                        <img src="assets/images/carousel-1.jpg" class="d-block w-100" alt="carousel-1">
+                        <div class="carousel-content">
+                            <h6>Construct</h6>
+                            <p> Constructed 3 of the largest convention centres in India and Oman</p>
+                            <span>EXPLORE OUR WORK</span>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/carousel-2.jpg" class="d-block w-100" alt="carousel-2">
+                        <div class="carousel-content">
+                            <h6>Support</h6>
+                            <p>This is the description for slide one.</p>
+                            <span>EXPLORE OUR WORK</span>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/carousel-3.jpg" class="d-block w-100" alt="carousel-3">
+                        <div class="carousel-content">
+                            <h6>Infrastructure</h6>
+                            <p> Driving India's transport with 5,100+ lane kilometers of roads.</p>
+                            <span>EXPLORE OUR WORK</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="What__We__Offer">
+            <div class="heading__Container">
+                <h1 class="title">What we Offer</h1>
+            </div>
+            <div class="services flex-wrap flex-sm-nowrap" id="services">
+                <div class="card" style="width: 20rem;" data-aos="fade-up">
+                    <img src="assets/images/card1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Real Estate</h5>
+                        <p class="card-text">Homes that inspire, spaces that endure</p>
+                        <a href="#" class="btn btn-primary">READ MORE</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 20rem;" data-aos="fade-up" data-aos-delay="200">
+                    <img src="assets/images/card2.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Water</h5>
+                        <p class="card-text">Sustaining life, one drop at<br> a time</p>
+                        <a href="#" class="btn btn-primary">READ MORE</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 20rem;" data-aos="fade-up" data-aos-delay="300">
+                    <img src="assets/images/card3.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Financial Services</h5>
+                        <p class="card-text">Financial solutions for global impact</p>
+                        <a href="#" class="btn btn-primary">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Our__achievements">
+            <div class="heading__Container">
+                <h1 class="title">About us</h1>
+            </div>
+            <div class="container">
+                <section class="container py-5 stats-section">
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <div class="stat" data-target="80">0</div>
+                            <p class="text-muted">Projects</p>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="stat" data-target="100">0</div>
+                            <p class="text-muted">Clients</p>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="stat" data-target="400">0</div>
+                            <p class="text-muted">Workers</p>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        let lastScrollTop = 0;
+        const header = document.querySelector('.header');
+
+        window.addEventListener('scroll', () => {
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+            if (scrollTop > lastScrollTop) {
+                header.classList.add('hide');
+            } else {
+                header.classList.remove('hide');
+            }
+
+            lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; 
+        });
+    </script>
+
+</body>
+
+</html>

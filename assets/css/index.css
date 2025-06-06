@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 80px;
+}
+
+@media only screen and (max-width: 767px) {
+    .header {
+        height: 70px;
+    }
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    background-color: white;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.08);
+    transition: opacity 0.5s ease; 
+}
+
+.nav-left .logo {
+    width: 107px;
+    height: auto;
+}
+
+.nav-middle .nav-links {
+    gap: 45px;
+}
+
+.nav-middle .nav-links a {
+    text-decoration: none;
+}
+
+.nav-item {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    color: #303843 !important;
+    cursor: pointer;
+}
+
+.nav-item a {
+    color: #303843 !important;
+}
+
+.carousel-item img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: 95vh;
+    object-fit: cover;
+}
+
+@media screen and (max-width:768px) {
+    .nav-left .logo {
+        width: 91px;
+        height: auto;
+    }
+
+    .carousel-item img {
+        min-height: 95vh;
+    }
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-content {
+    position: absolute;
+    top: 68%;
+    left: 1%;
+    transform: translateY(-50%);
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.carousel-content h6 {
+    font-size: 14px;
+    font-family: "Poppins";
+    font-weight: 300;
+}
+
+.carousel-content p {
+    font-family: "Poppins";
+    font-size: 40px;
+    line-height: 45px;
+    letter-spacing: 0.02em;
+    color: white;
+    font-weight: 500;
+    max-width: 758px;
+    padding: 4px 0;
+    margin: 16px 0;
+    width: 90%;
+}
+
+.carousel-content span {
+    padding: 15px 28px;
+    background-color: white;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    color: #303843;
+    text-align: center
+}
+
+.What__We__Offer {
+    padding: 80px 0;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative
+}
+
+.heading__Container .title {
+    font-family: "Poppins";
+    color: #303843;
+    font-family: "Poppins";
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 46px;
+    margin-bottom: 32px
+}
+
+.What__We__Offer .services .card {
+    border-radius: 0 !important;
+}
+
+.What__We__Offer .services {
+    display: flex;
+    gap: 30px;
+    place-content: center;
+}
+
+.card .card-title {
+    color: #303843 !important;
+    font-family: 'Poppins' !important;
+    font-size: 18px !important;
+    font-weight: 300 !important;
+    line-height: 27px !important;
+    padding-bottom: 5px !important;
+}
+
+.card .card-text {
+    color: #535A64 !important;
+    font-family: 'Poppins' !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 27px !important;
+}
+
+.card .btn {
+    width: 103px !important;
+    height: 34px !important;
+    background: #E8EAEF !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-top: 18px !important;
+    border-radius: 0 !important;
+    border: 1px solid gray;
+}
+
+.card a {
+    font-family: 'Poppins' !important;
+    font-size: 10px !important;
+    letter-spacing: 0.06em !important;
+    line-height: 1 !important;
+    color: #303843 !important;
+    text-transform: uppercase !important;
+}
+
+@media screen and (max-width:520px) {
+    .carousel-content p {
+        font-size: 21px;
+        line-height: 32px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .What__We__Offer .services {
+        justify-content: space-evenly;
+    }
+}
+
+.stat {
+    font-size: 109px;
+    font-weight: 300;
+    transition: all 0.3s ease;
+}
+
+.Our__achievements p {
+    font-family: 'Poppins';
+    font-size: 18px;
+}
+.Our__achievements .heading__Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Our__achievements .heading__Container .title{
+    border-bottom: 3px solid;
+    width: max-content;
+    margin-bottom: 0!important;
+}
+.header.hide {
+  opacity: 0;
+  pointer-events: none;
+}
