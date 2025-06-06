@@ -10,11 +10,6 @@
     height: 80px;
 }
 
-@media only screen and (max-width: 767px) {
-    .header {
-        height: 70px;
-    }
-}
 
 .header {
     position: fixed;
@@ -63,15 +58,6 @@
     object-fit: cover;
 }
 
-@media screen and (max-width:768px) {
-    .nav-left .logo {
-        width: 91px;
-        height: auto;
-    }
-    .carousel-item img {
-        min-height: 95vh;
-    }
-}
 
 .carousel-item {
     position: relative;
@@ -184,18 +170,6 @@
     text-transform: uppercase !important;
 }
 
-@media screen and (max-width:520px) {
-    .carousel-content p {
-        font-size: 21px;
-        line-height: 32px;
-    }
-}
-
-@media screen and (min-width:1440px) {
-    .What__We__Offer .services {
-        justify-content: space-evenly;
-    }
-}
 
 .stat {
     font-size: 109px;
@@ -221,3 +195,29 @@
   opacity: 0;
   pointer-events: none;
 }
+@media only screen and (max-width: 767px) {
+        .header {
+            height: 70px;
+        }
+    }
+        @media screen and (max-width:520px) {
+            .carousel-content p {
+                font-size: 21px;
+                line-height: 32px;
+            }
+        }
+        
+        @media screen and (min-width:1440px) {
+            .What__We__Offer .services {
+                justify-content: space-evenly;
+            }
+        }
+    @media screen and (max-width:768px) {
+        .nav-left .logo {
+            width: 91px;
+            height: auto;
+        }
+        .carousel-item img {
+            min-height: 95vh;
+        }
+    }
