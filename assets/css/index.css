@@ -198,7 +198,17 @@
     opacity: 0;
     pointer-events: none;
 }
-
+.footer{
+    display: flex;
+    place-content: center;
+    gap:30px;
+    background: darkgrey;
+    padding: 53px 0px;
+}
+.footer span{
+    font-size: 17px!important;
+    color: #E8EAEF;
+}
 @media only screen and (max-width: 767px) {
     .header {
         height: 70px;
