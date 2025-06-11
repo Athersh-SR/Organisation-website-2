@@ -200,14 +200,18 @@
 }
 .footer{
     display: flex;
-    place-content: center;
-    gap:30px;
+    justify-content: center;
+    align-items: center;
     background: darkgrey;
     padding: 53px 0px;
 }
 .footer span{
     font-size: 17px!important;
     color: #E8EAEF;
+}
+.footer__info {
+    display: flex;
+    gap: 30px;
 }
 @media only screen and (max-width: 767px) {
     .header {
